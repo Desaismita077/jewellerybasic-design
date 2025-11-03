@@ -34,7 +34,7 @@
       <tbody>
         <tr>
           <td>1234-5678-9876</td>
-          <td>Priya R</td>
+          <td><a href="#" class="customer-link" data-customer="priya">Priya R</a></td>
           <td>50</td>
           <td>₹1,50,000</td>
           <td>1.2</td>
@@ -45,7 +45,7 @@
         </tr>
         <tr>
           <td>2345-6789-8765</td>
-          <td>Ramesh K</td>
+          <td><a href="#" class="customer-link" data-customer="ramesh">Ramesh K</a></td>
           <td>30</td>
           <td>₹90,000</td>
           <td>1.0</td>
@@ -57,5 +57,16 @@
       </tbody>
     </table>
   </div>
+
+  <!-- Popup Modal -->
+  <div id="customerModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Customer Details</h2>
+      <div id="customerDetails"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
